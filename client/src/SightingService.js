@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:5000/api/sightings/'
+const baseURL = 'http://localhost:5000/api/birds/'
 
 export const getSightings = () => {
     return fetch(baseURL)
